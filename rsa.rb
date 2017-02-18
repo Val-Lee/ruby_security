@@ -105,7 +105,7 @@ end
 n, e, d,p,q = RSA.generate_keys(40)
 puts "p              : #{p}"
 puts "q              : #{q}"
-m = "Hello,world"
+m = "Hello"
 puts "public exponent: #{e}"
 puts "public modulus : #{n}"
 puts "private exp    : #{d}"
